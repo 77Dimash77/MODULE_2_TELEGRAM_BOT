@@ -16,7 +16,6 @@
 8. Дополнительные библиотеки:
     • telegrambots-spring-boot-starter
 
-
 Инструкция по запуску проекта IntelliJ IDEA (Linux):
 
 1. В файле application.yml:
