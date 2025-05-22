@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+telegram:
+ bot:
+  username:
+  token:
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/(Указать базу)?useSSL=false&serverTimezone=UTC
+    username:
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  application:
+    name: telegram-api
+
